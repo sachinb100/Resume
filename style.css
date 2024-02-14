@@ -1,0 +1,57 @@
+.himage {
+    width:100%;
+    position: relative;
+    
+}
+/*
+.hero_title{
+    font-size: 4.5rem;
+}
+
+.hero_desc{
+    font-size: 4.5rem;
+}
+*/
+.hero-text{
+    text-align:justify;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+
+
+.imageAboutPage{
+    width:100%;
+}
+
+/*display black color on navbar scroll */
+.navbar.navbarDark{
+    background-color: black;
+}
+
+#footer{
+    background-color:aliceblue;
+    text-align: center;
+}
+
+.social-icons{
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.bi-envelope:hover,.bi-github:hover,.bi-linkedin:hover{
+    color: #008000;
+}
+
+
+.fab{
+    color: #000000;
+}
+/* spacing on all sections*/
+#about,#projects,#skills{
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
